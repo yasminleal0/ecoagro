@@ -1,18 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-<title>Projeto Agrinho</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="menu-principal">
-        <main>
-       <div class="header-1">
-          <div class="logo">
-              <img src="img/EcoAgro-15-05-2024.png" >
-         </div>
-        </div>
-     </main>
-  </header> 
+    <script src="scripit.js"></script>
 </body>
+ 
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="ecoagro.png" alt="logo do site">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item"><a href="#escola">Equipe</a></li>
+            <li class="cabecalho-lista-item"><a href="#estudante">personagens</a></li>
+        </ul>
+    </header>
+<div class="carrosel">
+    <div class="carrosels">
+        <!--Radio Buttons-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--Fim Radio Buttons-->
 
+        <!--Carrosel imagens-->
+        <div class="carrosel first">
+            <img src="imagen1.jpg" alt="imagem1" />
+        </div>
+        <div class="carrosel">
+            <img src="imagen2.jpg" alt="imagem2" />
+        </div>
+        <div class="carrosel first">
+            <img src="imagen3.jpg" alt="imagem3" />
+        </div>
+        <div class="carrosel">
+            <img src="imagen4.jpg" alt="imagem4" />
+        </div>
+        <!--Fim Carrosel Imagens-->
+
+        <!--navigation auto-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    
+    </div>
+
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+</div>
+
+<footer class="rodape">
+<img class="rodape-imagem" src="ecoagro.png" alt="logo do anime">
+</footer>
+</body>
 </html>

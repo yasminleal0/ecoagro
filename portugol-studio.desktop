@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Portugol Studio
+Comment=Ambiente de Desenvolvimento para a linguagem Portugol 2.0
+Exec=portugol-studio %F
+Icon=/usr/local/portugol-studio/aplicacao/icones/linux/portugol-studio.png
+Categories=Application;Development;Java;IDE;Portugol
+Version=2.7.5
+Type=Application
+Terminal=0
+MimeType=application/x-portugol
