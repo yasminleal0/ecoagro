@@ -46,3 +46,46 @@ width: 5%;
     padding: 5px 0;
 }
 
+.slideshow-container {
+    position: relative;
+    max-width: 150vh;
+    margin: auto;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+  }
+  
+  .slides img:first-child {
+    display: block;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5vh;
+    font-size: 5vh;
+    z-index: 100;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+  .slideshow-container:hover button {
+    opacity: 1; /* Mostra as setas quando o mouse estiver sobre o contêiner */
+  }
