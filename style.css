@@ -12,29 +12,21 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1px 0;
+    padding: 1vh 0;
 }
 .cabecalho-imagem{
 width: 5%;
 }
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
-    font-size: 16px;
+    margin: 0 3vh;
+    font-size: 2vh;
 }
 .cabecalho-lista-item a{
     text-decoration: none;
     color: #99e631;
 }
 
-#escola{
-    background-image: linear-gradient(#000000, #030303);
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
 
 
 .slideshow-container {
@@ -90,7 +82,7 @@ body {
 
 header h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 24vh;
 }
 
 header nav ul {
@@ -100,22 +92,19 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 10vh;
 }
 
 header nav ul li a {
-  color: #ffffff;
+  color: #141414;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 2vh;
 }
 
 header nav ul li a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 20px 0;
-}
 
 section {
   margin-bottom: 40px;
@@ -124,19 +113,21 @@ section {
 section h2 {
   font-size: 3vh;
   color: #235e14;
+  padding: 2vh;
 }
 
 section p {
   color: #000000;
-  font-size: 16px;
+  font-size: 3vh;
   line-height: 1.6;
+  padding: 2vh;
 }
 
 footer {
   background-color: #333;
   color: #ffffff;
   text-align: center;
-  padding: 10px 0;
+  padding: 2vh 0;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -169,10 +160,10 @@ footer p {
 
 .rodape{
   background-color: #02391e;
-  text-align: center;
+  text-align: center;;
 }
 
 .rodape-imagem{
-  height: 30px;
-  padding: 5px 0;
+  height: 3vh;
+  padding: 5vh 0;
 }
