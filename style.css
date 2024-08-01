@@ -31,7 +31,7 @@ width: 5%;
 
 .slideshow-container {
     position: relative;
-    max-width: 150vh;
+    max-width: 100%;
     margin: auto;
   }
   
@@ -53,7 +53,7 @@ width: 5%;
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
-    color: white;
+    color: transparent;
     border: none;
     cursor: pointer;
     padding: 5vh;
