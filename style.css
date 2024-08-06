@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 240, 234);
     font-family: 'poppins', sans-serif;
 }
 .cabecalho {
@@ -96,7 +96,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #141414;
+  color: #020202;
   text-decoration: none;
   font-size: 2vh;
 }
@@ -124,7 +124,7 @@ section p {
 }
 
 footer {
-  background-color: #333;
+  background-color:#02391e ;
   color: #ffffff;
   text-align: center;
   padding: 2vh 0;
@@ -160,10 +160,61 @@ footer p {
 
 .rodape{
   background-color: #02391e;
-  text-align: center;;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vh 0;
 }
 
-.rodape-imagem{
-  height: 3vh;
-  padding: 5vh 0;
+
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 3vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #02391e;
+}
+
+nav ul li {
+  position: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color:#519451;
+  background-color: rgb(243, 241, 241);
+  border-radius: 5px;
+
+}
+
+
+section {
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  background-color:#ffffff ;
+  box-shadow: 0 0 10px rgba(252, 252, 252, 0.1);
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
 }
