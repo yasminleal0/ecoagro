@@ -1,2 +1,5 @@
-Eu começei meu site pesquisando mais sobre o tema do agrinho que e "Do Campo a Cidade Colhendo Oportunidades", ja que e um tema muito amplo.
-Depois que escolhi e fiz um resumo sobre oque eu ia falar no site, eu criei um exemplo de como eu queria meu site e como ia organizar tudo, depois disso eu criei minhas imagens via IA com o aplicativo canva, logo apos isso fui programar o site e começei criando o cabeçalho e o rodape do site criei o eslogan e os carrossel logo após escrever tudo que ia ter no site eu fiz a parte css e java e organizei ele.
+Claro! Aqui está o texto revisado e organizado:
+
+Iniciei meu site pesquisando mais sobre o tema do Agrinho, que é 'Do Campo à Cidade: Colhendo Oportunidades', dado sua amplitude. Após escolher o tema, fiz um resumo do que seria abordado no site. Em seguida, criei um exemplo de como queria o site organizado. Utilizei o aplicativo Canva para criar minhas imagens através de inteligência artificial. Logo depois, comecei a programar o site.
+
+Primeiramente, desenvolvi o cabeçalho e o rodapé, defini o slogan e os carrosséis. Em seguida, escrevi todo o conteúdo que seria incluído no site. Após isso, trabalhei na parte de CSS e JavaScript para organizar e finalizar o site.
